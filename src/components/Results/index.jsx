@@ -90,7 +90,7 @@ const Results = () => {
             ))}
           </Box>
         </Box>
-        <Box flex="0.2">
+        <Box flex="0.2" bg="gray.100" rounded="2xl" p={4}>
           <Heading mb={4} size="md">
             Logic for parsing API response
           </Heading>

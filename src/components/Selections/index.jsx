@@ -58,7 +58,11 @@ const Selections = () => {
       <SimpleGrid columns={4} gap={4}>
         <FormControl>
           <FormLabel>Deductible / Max OOP</FormLabel>
-          <Select name="maxOOP" onChange={handleOOPChange}>
+          <Select
+            name="maxOOP"
+            onChange={handleOOPChange}
+            placeholder="Make Selection"
+          >
             {Object.keys(maxOopOptions).map((key) => (
               <option key={key} value={key}>
                 {maxOopOptions[key]}
@@ -68,7 +72,11 @@ const Selections = () => {
         </FormControl>
         <FormControl>
           <FormLabel>Maximum Coverage Amount</FormLabel>
-          <Select name="coverageAmount" onChange={handleCoverageAmount}>
+          <Select
+            name="coverageAmount"
+            onChange={handleCoverageAmount}
+            placeholder="Make Selection"
+          >
             {Object.keys(maxCoverages).map((key) => (
               <option key={key} value={key}>
                 {maxCoverages[key]}
