@@ -42,7 +42,7 @@ const Selections = () => {
                 <strong>Primary member only</strong>
               </ListItem>
               <ListItem>
-                <strong>Zip Code:</strong> 75007
+                <strong>Zip Code:</strong> 75007 (Texas)
               </ListItem>
               <ListItem>
                 <strong>Gender:</strong> Male
@@ -50,6 +50,7 @@ const Selections = () => {
               <ListItem>
                 <strong>DOB:</strong> 03/13/1986
               </ListItem>
+              s
             </UnorderedList>
           </ListItem>
         </UnorderedList>

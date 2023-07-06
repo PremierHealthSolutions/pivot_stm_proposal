@@ -90,34 +90,36 @@ const Results = () => {
             ))}
           </Box>
         </Box>
-        <Box flex="0.2" bg="gray.100" rounded="2xl" p={4}>
-          <Heading mb={4} size="md">
-            Logic for parsing API response
-          </Heading>
-          <UnorderedList spacing="4">
-            <ListItem>
-              Match <Code>coreBenefits.deductible</Code> to selected
-              Deductible/Max OOP
-            </ListItem>
-            <ListItem>
-              Match <Code>coreBenefits.outOfPocketMax</Code> to selected
-              Deductible/Max OOP
-            </ListItem>
-            <ListItem>
-              Match <Code>coreBenefits.lifetimeMax</Code> to selected Maximum
-              Coverage Amount
-              <Alert maxW="500px" mt={4}>
-                <AlertIcon /> Except for Indiana where $2,000,000 is required
-              </Alert>
-            </ListItem>
-            <ListItem>
-              Match <Code>coreBenefits.rxScheduleDescription</Code> to selected
-              "Discount Card Only"
-              <Alert maxW="500px" mt={4}>
-                <AlertIcon /> Except for Iowa where insured RX is required
-              </Alert>
-            </ListItem>
-          </UnorderedList>
+        <Box flex="0.2">
+          <Box bg="gray.100" rounded="2xl" p={4}>
+            <Heading mb={4} size="md">
+              Logic for parsing API response
+            </Heading>
+            <UnorderedList spacing="4">
+              <ListItem>
+                Match <Code>coreBenefits.deductible</Code> to selected
+                Deductible/Max OOP
+              </ListItem>
+              <ListItem>
+                Match <Code>coreBenefits.outOfPocketMax</Code> to selected
+                Deductible/Max OOP
+              </ListItem>
+              <ListItem>
+                Match <Code>coreBenefits.lifetimeMax</Code> to selected Maximum
+                Coverage Amount
+                <Alert maxW="500px" mt={4}>
+                  <AlertIcon /> Except for Indiana where $2,000,000 is required
+                </Alert>
+              </ListItem>
+              <ListItem>
+                Match <Code>coreBenefits.rxScheduleDescription</Code> to
+                selected "Discount Card Only"
+                <Alert maxW="500px" mt={4}>
+                  <AlertIcon /> Except for Iowa where insured RX is required
+                </Alert>
+              </ListItem>
+            </UnorderedList>
+          </Box>
         </Box>
       </Stack>
     </Box>
