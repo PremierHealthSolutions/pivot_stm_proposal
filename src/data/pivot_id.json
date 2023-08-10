@@ -1,0 +1,1410 @@
+{
+  "request": {
+    "location": { "state": "ID", "zip": "83701" },
+    "members": [{ "dob": "03/13/1986", "gender": "M", "role": "PRIMARY" }],
+    "coveragePeriod": { "startDate": "08/15/2023" },
+    "options": {
+      "audit": false,
+      "legacy": false,
+      "suggestion": null,
+      "page": 0,
+      "pageSize": 500,
+      "sort": "PRICING",
+      "exactDurationOnly": false,
+      "allDurations": false,
+      "maintenance": false
+    },
+    "products": [{ "id": "EPIC", "filters": [] }],
+    "agentId": "TEST",
+    "vendorId": 6,
+    "valid": true
+  },
+  "plans": {
+    "312": {
+      "planId": 312,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 3,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 268.17,
+            "premium": 387.87,
+            "initialPayment": 407.82,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 64.64,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 59.59,
+            "premium": 79.54,
+            "initialPayment": 99.49,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=312&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=312&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "networkProvider": "any-provider",
+        "patientAdvocacyServices": "true",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "coinsurance": "100",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "network": "Non-PPO",
+        "userCoinsurance": "0",
+        "planType": "Epic High Deductible RBP",
+        "lifetimeMax": "1000000",
+        "rxSchedule": "01",
+        "outOfPocketMax": "20000",
+        "deductible": "20000",
+        "deductibleFamily": "40000",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "311": {
+      "planId": 311,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 3,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 320.67,
+            "premium": 440.37,
+            "initialPayment": 460.32,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 73.4,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 71.26,
+            "premium": 91.21,
+            "initialPayment": 111.16,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=311&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=311&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "networkProvider": "any-provider",
+        "patientAdvocacyServices": "true",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "coinsurance": "100",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "network": "Non-PPO",
+        "userCoinsurance": "0",
+        "planType": "Epic High Deductible RBP",
+        "rxSchedule": "01",
+        "deductible": "15000",
+        "deductibleFamily": "30000",
+        "lifetimeMax": "1000000",
+        "outOfPocketMax": "15000",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "320": {
+      "planId": 320,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 4,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 332.57,
+            "premium": 452.27,
+            "initialPayment": 472.22,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 75.38,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 73.91,
+            "premium": 93.86,
+            "initialPayment": 113.81,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=320&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=320&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "networkProvider": "any-provider",
+        "patientAdvocacyServices": "true",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "coinsurance": "100",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "network": "Non-PPO",
+        "userCoinsurance": "0",
+        "planType": "Epic High Deductible RBP",
+        "outOfPocketMax": "20000",
+        "rxSchedule": "04",
+        "deductibleFamily": "40000",
+        "lifetimeMax": "1000000",
+        "deductible": "20000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "319": {
+      "planId": 319,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 4,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 385.08,
+            "premium": 504.78,
+            "initialPayment": 524.73,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 84.13,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 85.58,
+            "premium": 105.53,
+            "initialPayment": 125.48,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=319&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=319&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "networkProvider": "any-provider",
+        "patientAdvocacyServices": "true",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "coinsurance": "100",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "network": "Non-PPO",
+        "userCoinsurance": "0",
+        "planType": "Epic High Deductible RBP",
+        "deductibleFamily": "30000",
+        "lifetimeMax": "1000000",
+        "rxSchedule": "04",
+        "deductible": "15000",
+        "outOfPocketMax": "15000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "310": {
+      "planId": 310,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 3,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 397.56,
+            "premium": 517.26,
+            "initialPayment": 537.21,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 86.21,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 88.35,
+            "premium": 108.3,
+            "initialPayment": 128.25,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=310&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=310&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "networkProvider": "any-provider",
+        "patientAdvocacyServices": "true",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "coinsurance": "100",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "network": "Non-PPO",
+        "userCoinsurance": "0",
+        "planType": "Epic High Deductible RBP",
+        "lifetimeMax": "1000000",
+        "deductible": "10000",
+        "deductibleFamily": "20000",
+        "rxSchedule": "01",
+        "outOfPocketMax": "10000",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "318": {
+      "planId": 318,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 4,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 461.97,
+            "premium": 581.67,
+            "initialPayment": 601.62,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 96.94,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 102.66,
+            "premium": 122.61,
+            "initialPayment": 142.56,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=318&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=318&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "lifetimeMax": "1000000",
+        "outOfPocketMax": "10000",
+        "deductible": "10000",
+        "rxSchedule": "04",
+        "deductibleFamily": "20000",
+        "networkProvider": "any-provider",
+        "patientAdvocacyServices": "true",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "coinsurance": "100",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "network": "Non-PPO",
+        "userCoinsurance": "0",
+        "planType": "Epic High Deductible RBP",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "309": {
+      "planId": 309,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 3,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 496.95,
+            "premium": 616.65,
+            "initialPayment": 636.6,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 102.78,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 110.43,
+            "premium": 130.38,
+            "initialPayment": 150.33,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=309&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=309&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "deductibleFamily": "10000",
+        "deductible": "5000",
+        "lifetimeMax": "1000000",
+        "outOfPocketMax": "5000",
+        "rxSchedule": "01",
+        "networkProvider": "any-provider",
+        "patientAdvocacyServices": "true",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "coinsurance": "100",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "network": "Non-PPO",
+        "userCoinsurance": "0",
+        "planType": "Epic High Deductible RBP",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "317": {
+      "planId": 317,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 4,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 561.36,
+            "premium": 681.06,
+            "initialPayment": 701.01,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 113.51,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 124.75,
+            "premium": 144.7,
+            "initialPayment": 164.65,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=317&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=317&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "networkProvider": "any-provider",
+        "patientAdvocacyServices": "true",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "coinsurance": "100",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "network": "Non-PPO",
+        "userCoinsurance": "0",
+        "planType": "Epic High Deductible RBP",
+        "rxSchedule": "04",
+        "outOfPocketMax": "5000",
+        "deductibleFamily": "10000",
+        "lifetimeMax": "1000000",
+        "deductible": "5000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "298": {
+      "planId": 298,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_PPO",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic PPO",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 599.08,
+            "premium": 718.78,
+            "initialPayment": 738.73,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 119.8,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 133.13,
+            "premium": 153.08,
+            "initialPayment": 173.03,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=298&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=298&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "networkProvider": "cigna",
+        "coinsurance": "100",
+        "planType": "Epic High Deductible PPO",
+        "userCoinsurance": "0",
+        "network": "PPO",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "lifetimeMax": "1000000",
+        "outNetworkFamilyDeductible": "26600",
+        "deductibleFamily": "20000",
+        "outNetworkLifetimeMax": "750000",
+        "rxSchedule": "01",
+        "outOfPocketMax": "10000",
+        "deductible": "10000",
+        "outNetworkDeductible": "13300",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": [1]
+    },
+    "297": {
+      "planId": 297,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_PPO",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic PPO",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 620.28,
+            "premium": 739.98,
+            "initialPayment": 759.93,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 123.33,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 137.84,
+            "premium": 157.79,
+            "initialPayment": 177.74,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=297&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=297&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "networkProvider": "cigna",
+        "coinsurance": "100",
+        "planType": "Epic High Deductible PPO",
+        "userCoinsurance": "0",
+        "network": "PPO",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "deductible": "8000",
+        "outNetworkDeductible": "10600",
+        "lifetimeMax": "1000000",
+        "outOfPocketMax": "8000",
+        "deductibleFamily": "16000",
+        "rxSchedule": "01",
+        "outNetworkFamilyDeductible": "21200",
+        "outNetworkLifetimeMax": "750000",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": [1]
+    },
+    "304": {
+      "planId": 304,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_PPO",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic PPO",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 663.49,
+            "premium": 783.19,
+            "initialPayment": 803.14,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 130.53,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 147.44,
+            "premium": 167.39,
+            "initialPayment": 187.34,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=304&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=304&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "networkProvider": "cigna",
+        "coinsurance": "100",
+        "planType": "Epic High Deductible PPO",
+        "userCoinsurance": "0",
+        "network": "PPO",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "outNetworkLifetimeMax": "750000",
+        "outOfPocketMax": "10000",
+        "outNetworkFamilyDeductible": "26600",
+        "deductibleFamily": "20000",
+        "outNetworkDeductible": "13300",
+        "lifetimeMax": "1000000",
+        "rxSchedule": "04",
+        "deductible": "10000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": [1]
+    },
+    "303": {
+      "planId": 303,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_PPO",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic PPO",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 684.68,
+            "premium": 804.38,
+            "initialPayment": 824.33,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 134.06,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 152.15,
+            "premium": 172.1,
+            "initialPayment": 192.05,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=303&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=303&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "networkProvider": "cigna",
+        "coinsurance": "100",
+        "planType": "Epic High Deductible PPO",
+        "userCoinsurance": "0",
+        "network": "PPO",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "outNetworkFamilyDeductible": "21200",
+        "deductibleFamily": "16000",
+        "outNetworkDeductible": "10600",
+        "outOfPocketMax": "8000",
+        "outNetworkLifetimeMax": "750000",
+        "deductible": "8000",
+        "rxSchedule": "04",
+        "lifetimeMax": "1000000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": [1]
+    },
+    "296": {
+      "planId": 296,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_PPO",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic PPO",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 748.85,
+            "premium": 868.55,
+            "initialPayment": 888.5,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 144.76,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 166.41,
+            "premium": 186.36,
+            "initialPayment": 206.31,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=296&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=296&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "networkProvider": "cigna",
+        "coinsurance": "100",
+        "planType": "Epic High Deductible PPO",
+        "userCoinsurance": "0",
+        "network": "PPO",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "rxSchedule": "01",
+        "deductibleFamily": "10000",
+        "lifetimeMax": "1000000",
+        "deductible": "5000",
+        "outNetworkFamilyDeductible": "13200",
+        "outOfPocketMax": "5000",
+        "outNetworkLifetimeMax": "750000",
+        "outNetworkDeductible": "6600",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": [1]
+    },
+    "302": {
+      "planId": 302,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_PPO",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic PPO",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 813.26,
+            "premium": 932.96,
+            "initialPayment": 952.91,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              },
+              {
+                "name": "Admin Fee",
+                "description": "Admin Fee",
+                "value": 12.06
+              }
+            ],
+            "monthlyDiscountedRate": 155.49,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 180.73,
+            "premium": 200.68,
+            "initialPayment": 220.63,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              },
+              { "name": "Admin Fee", "description": "Admin Fee", "value": 2.0 }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=302&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=42810691-c5ba-4abf-86a9-fc7e70bd1cb0&planid=302&period=180&policies=1"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "networkProvider": "cigna",
+        "coinsurance": "100",
+        "planType": "Epic High Deductible PPO",
+        "userCoinsurance": "0",
+        "network": "PPO",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "outNetworkLifetimeMax": "750000",
+        "outNetworkFamilyDeductible": "13200",
+        "outOfPocketMax": "5000",
+        "rxSchedule": "04",
+        "outNetworkDeductible": "6600",
+        "deductible": "5000",
+        "lifetimeMax": "1000000",
+        "deductibleFamily": "10000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": [1]
+    }
+  },
+  "agentInfo": {
+    "agentId": "TEST",
+    "agencyId": "TEST",
+    "agentFirstName": "TestQA",
+    "agentLastName": "TestQA",
+    "agencyName": "TestQA TestQA"
+  },
+  "featured": {},
+  "quoteFilters": {
+    "plansByProductLine": {
+      "EPIC": [
+        296, 297, 298, 302, 303, 304, 309, 310, 311, 312, 317, 318, 319, 320
+      ]
+    },
+    "outOfPocketMax": {
+      "10000": [298, 304, 310, 318],
+      "15000": [311, 319],
+      "20000": [320, 312],
+      "5000": [296, 302, 309, 317],
+      "8000": [297, 303]
+    },
+    "coInsurance": {
+      "0": [
+        320, 296, 297, 298, 302, 303, 304, 309, 310, 311, 312, 317, 318, 319
+      ]
+    },
+    "networkProvider": {
+      "any-provider": [320, 309, 310, 311, 312, 317, 318, 319],
+      "cigna": [296, 297, 298, 302, 303, 304]
+    },
+    "officeVisitCopay": {
+      "true": [
+        320, 296, 297, 298, 302, 303, 304, 309, 310, 311, 312, 317, 318, 319
+      ]
+    },
+    "prescriptionDrug": {
+      "false": [296, 297, 298, 309, 310, 311, 312],
+      "true": [320, 302, 303, 304, 317, 318, 319]
+    },
+    "benefits": { "preventive": [319] },
+    "policyDuration": {
+      "180": [
+        320, 296, 297, 298, 302, 303, 304, 309, 310, 311, 312, 317, 318, 319
+      ]
+    },
+    "monthlyCost": [
+      {
+        "policyDuration": 180,
+        "monthlyCost": {
+          "Under100": [[320, 311, 312]],
+          "Between101_200": [
+            [296, 297, 298, 302, 303, 304, 309, 310, 317, 318, 319]
+          ]
+        }
+      }
+    ]
+  },
+  "paging": {
+    "pageSize": 14,
+    "totalElements": 14,
+    "totalPages": 1,
+    "indexPage": 0
+  },
+  "plansByProductLine": {
+    "EPIC": [
+      296, 297, 298, 302, 303, 304, 309, 310, 311, 312, 317, 318, 319, 320
+    ]
+  },
+  "jsons": {
+    "1": "https://cdn.qa.pivothealth.com/resources/v2/products/epic/details/NRIC-PPO.json",
+    "2": "https://cdn.qa.pivothealth.com/resources/v2/products/epic/details/NRIC-PPO-with-RX.json",
+    "3": "https://cdn.qa.pivothealth.com/resources/v2/products/epic/details/NRIC-base.json",
+    "4": "https://cdn.qa.pivothealth.com/resources/v2/products/epic/details/NRIC-base-with-RX.json"
+  },
+  "brochures": {
+    "1": "https://cdn.qa.pivothealth.com/resources/v2/products/epic/brochure/epic.pdf"
+  },
+  "extraLinks": {
+    "1": {
+      "description": "CIGNA PPO: Access to almost 1 million unique national providers and 6,360 hospitals in-network. Members pay a discount of nearly 50% as compared to the national average. Search providers now.††",
+      "url": "https://sarhcpdir.cigna.com/web/public/sarProviders",
+      "category": "DOCTOR_LINK"
+    }
+  },
+  "carriers": {
+    "5": {
+      "name": "North River Insurance Company",
+      "logo": "https://cdn.pivothealth.com/resources/v2/carriers/north-river/images/NRIC-logo.svg",
+      "about": "<h1>disclaimer</h1>"
+    }
+  },
+  "firstAllowedCoverageDate": "08/11/2023",
+  "childOnlyProductLines": [
+    {
+      "productId": 17,
+      "productLine": "EPIC",
+      "membersEligibleForChildOnly": false
+    }
+  ],
+  "quoteKey": "42810691-c5ba-4abf-86a9-fc7e70bd1cb0"
+}

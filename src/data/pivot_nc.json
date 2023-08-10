@@ -1,0 +1,4030 @@
+{
+  "request": {
+    "location": { "state": "NC", "zip": "27601" },
+    "members": [{ "dob": "03/13/1986", "gender": "M", "role": "PRIMARY" }],
+    "coveragePeriod": { "startDate": "08/11/2023" },
+    "options": {
+      "audit": false,
+      "legacy": false,
+      "suggestion": null,
+      "page": 0,
+      "pageSize": 500,
+      "sort": "PRICING",
+      "exactDurationOnly": false,
+      "allDurations": false,
+      "maintenance": false
+    },
+    "products": [{ "id": "EPIC", "filters": [] }],
+    "agentId": "TEST",
+    "vendorId": 6,
+    "valid": true
+  },
+  "plans": {
+    "308": {
+      "planId": 308,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 183.65,
+            "premium": 303.35,
+            "initialPayment": 323.3,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 50.56,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 40.81,
+            "premium": 60.76,
+            "initialPayment": 80.71,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 55.1,
+            "premium": 75.05,
+            "initialPayment": 95.0,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 45.71,
+            "premium": 65.66,
+            "initialPayment": 85.61,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 58.4,
+            "premium": 78.35,
+            "initialPayment": 98.3,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 58.4,
+            "premium": 78.35,
+            "initialPayment": 98.3,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=308&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "deductibleFamily": "40000",
+        "lifetimeMax": "500000",
+        "outOfPocketMax": "20000",
+        "rxSchedule": "01",
+        "deductible": "20000",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "312": {
+      "planId": 312,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 193.31,
+            "premium": 313.01,
+            "initialPayment": 332.96,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 52.17,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 42.96,
+            "premium": 62.91,
+            "initialPayment": 82.86,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 57.99,
+            "premium": 77.94,
+            "initialPayment": 97.89,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 48.11,
+            "premium": 68.06,
+            "initialPayment": 88.01,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 61.47,
+            "premium": 81.42,
+            "initialPayment": 101.37,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 61.47,
+            "premium": 81.42,
+            "initialPayment": 101.37,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=312&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "lifetimeMax": "1000000",
+        "outOfPocketMax": "20000",
+        "deductible": "20000",
+        "deductibleFamily": "40000",
+        "rxSchedule": "01",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "307": {
+      "planId": 307,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 219.61,
+            "premium": 339.31,
+            "initialPayment": 359.26,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 56.55,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 48.8,
+            "premium": 68.75,
+            "initialPayment": 88.7,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 65.88,
+            "premium": 85.83,
+            "initialPayment": 105.78,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 54.66,
+            "premium": 74.61,
+            "initialPayment": 94.56,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 69.84,
+            "premium": 89.79,
+            "initialPayment": 109.74,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 69.84,
+            "premium": 89.79,
+            "initialPayment": 109.74,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=307&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "outOfPocketMax": "15000",
+        "lifetimeMax": "500000",
+        "deductible": "15000",
+        "rxSchedule": "01",
+        "deductibleFamily": "30000",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "316": {
+      "planId": 316,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 230.08,
+            "premium": 349.78,
+            "initialPayment": 369.73,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 58.3,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 51.13,
+            "premium": 71.08,
+            "initialPayment": 91.03,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 69.03,
+            "premium": 88.98,
+            "initialPayment": 108.93,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 57.27,
+            "premium": 77.22,
+            "initialPayment": 97.17,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 73.17,
+            "premium": 93.12,
+            "initialPayment": 113.07,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 73.17,
+            "premium": 93.12,
+            "initialPayment": 113.07,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=316&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "deductibleFamily": "40000",
+        "outOfPocketMax": "20000",
+        "lifetimeMax": "500000",
+        "deductible": "20000",
+        "rxSchedule": "04",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "311": {
+      "planId": 311,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 231.17,
+            "premium": 350.87,
+            "initialPayment": 370.82,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 58.48,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 51.37,
+            "premium": 71.32,
+            "initialPayment": 91.27,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 69.35,
+            "premium": 89.3,
+            "initialPayment": 109.25,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 57.54,
+            "premium": 77.49,
+            "initialPayment": 97.44,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 73.51,
+            "premium": 93.46,
+            "initialPayment": 113.41,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 73.51,
+            "premium": 93.46,
+            "initialPayment": 113.41,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=311&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "outOfPocketMax": "15000",
+        "lifetimeMax": "1000000",
+        "deductible": "15000",
+        "rxSchedule": "01",
+        "deductibleFamily": "30000",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "320": {
+      "planId": 320,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 239.75,
+            "premium": 359.45,
+            "initialPayment": 379.4,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 59.91,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 53.28,
+            "premium": 73.23,
+            "initialPayment": 93.18,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 71.93,
+            "premium": 91.88,
+            "initialPayment": 111.83,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 59.67,
+            "premium": 79.62,
+            "initialPayment": 99.57,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 76.24,
+            "premium": 96.19,
+            "initialPayment": 116.14,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 76.24,
+            "premium": 96.19,
+            "initialPayment": 116.14,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=320&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "deductibleFamily": "40000",
+        "outOfPocketMax": "20000",
+        "lifetimeMax": "1000000",
+        "deductible": "20000",
+        "rxSchedule": "04",
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "315": {
+      "planId": 315,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 266.04,
+            "premium": 385.74,
+            "initialPayment": 405.69,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 64.29,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 59.12,
+            "premium": 79.07,
+            "initialPayment": 99.02,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 79.81,
+            "premium": 99.76,
+            "initialPayment": 119.71,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 66.22,
+            "premium": 86.17,
+            "initialPayment": 106.12,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 84.6,
+            "premium": 104.55,
+            "initialPayment": 124.5,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 84.6,
+            "premium": 104.55,
+            "initialPayment": 124.5,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=315&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "rxSchedule": "04",
+        "outOfPocketMax": "15000",
+        "deductible": "15000",
+        "lifetimeMax": "500000",
+        "deductibleFamily": "30000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "306": {
+      "planId": 306,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 272.26,
+            "premium": 391.96,
+            "initialPayment": 411.91,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 65.33,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 60.5,
+            "premium": 80.45,
+            "initialPayment": 100.4,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 81.68,
+            "premium": 101.63,
+            "initialPayment": 121.58,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 67.76,
+            "premium": 87.71,
+            "initialPayment": 107.66,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 86.58,
+            "premium": 106.53,
+            "initialPayment": 126.48,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 86.58,
+            "premium": 106.53,
+            "initialPayment": 126.48,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=306&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "deductibleFamily": "20000",
+        "outOfPocketMax": "10000",
+        "lifetimeMax": "500000",
+        "rxSchedule": "01",
+        "deductible": "10000",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "319": {
+      "planId": 319,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 277.6,
+            "premium": 397.3,
+            "initialPayment": 417.25,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 66.22,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 61.69,
+            "premium": 81.64,
+            "initialPayment": 101.59,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 83.28,
+            "premium": 103.23,
+            "initialPayment": 123.18,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 69.09,
+            "premium": 89.04,
+            "initialPayment": 108.99,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 88.28,
+            "premium": 108.23,
+            "initialPayment": 128.18,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 88.28,
+            "premium": 108.23,
+            "initialPayment": 128.18,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=319&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "deductibleFamily": "30000",
+        "lifetimeMax": "1000000",
+        "rxSchedule": "04",
+        "outOfPocketMax": "15000",
+        "deductible": "15000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "310": {
+      "planId": 310,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 286.59,
+            "premium": 406.29,
+            "initialPayment": 426.24,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 67.72,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 63.69,
+            "premium": 83.64,
+            "initialPayment": 103.59,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 85.98,
+            "premium": 105.93,
+            "initialPayment": 125.88,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 71.33,
+            "premium": 91.28,
+            "initialPayment": 111.23,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 91.14,
+            "premium": 111.09,
+            "initialPayment": 131.04,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 91.14,
+            "premium": 111.09,
+            "initialPayment": 131.04,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=310&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "deductible": "10000",
+        "lifetimeMax": "1000000",
+        "deductibleFamily": "20000",
+        "outOfPocketMax": "10000",
+        "rxSchedule": "01",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "314": {
+      "planId": 314,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 318.69,
+            "premium": 438.39,
+            "initialPayment": 458.34,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 73.06,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 70.82,
+            "premium": 90.77,
+            "initialPayment": 110.72,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 95.61,
+            "premium": 115.56,
+            "initialPayment": 135.51,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 79.32,
+            "premium": 99.27,
+            "initialPayment": 119.22,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 101.35,
+            "premium": 121.3,
+            "initialPayment": 141.25,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 101.35,
+            "premium": 121.3,
+            "initialPayment": 141.25,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=314&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "rxSchedule": "04",
+        "lifetimeMax": "500000",
+        "deductibleFamily": "20000",
+        "deductible": "10000",
+        "outOfPocketMax": "10000",
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "318": {
+      "planId": 318,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 333.02,
+            "premium": 452.72,
+            "initialPayment": 472.67,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 75.45,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 74.01,
+            "premium": 93.96,
+            "initialPayment": 113.91,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 99.91,
+            "premium": 119.86,
+            "initialPayment": 139.81,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 82.89,
+            "premium": 102.84,
+            "initialPayment": 122.79,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 105.9,
+            "premium": 125.85,
+            "initialPayment": 145.8,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 105.9,
+            "premium": 125.85,
+            "initialPayment": 145.8,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=318&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "outOfPocketMax": "10000",
+        "lifetimeMax": "1000000",
+        "rxSchedule": "04",
+        "deductible": "10000",
+        "deductibleFamily": "20000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "305": {
+      "planId": 305,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 340.33,
+            "premium": 460.03,
+            "initialPayment": 479.98,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 76.67,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 75.63,
+            "premium": 95.58,
+            "initialPayment": 115.53,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 102.1,
+            "premium": 122.05,
+            "initialPayment": 142.0,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 84.7,
+            "premium": 104.65,
+            "initialPayment": 124.6,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 108.23,
+            "premium": 128.18,
+            "initialPayment": 148.13,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 108.23,
+            "premium": 128.18,
+            "initialPayment": 148.13,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=305&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "rxSchedule": "01",
+        "deductibleFamily": "10000",
+        "lifetimeMax": "500000",
+        "outOfPocketMax": "5000",
+        "deductible": "5000",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "309": {
+      "planId": 309,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 1,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 358.24,
+            "premium": 477.94,
+            "initialPayment": 497.89,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 79.66,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 79.61,
+            "premium": 99.56,
+            "initialPayment": 119.51,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 107.47,
+            "premium": 127.42,
+            "initialPayment": 147.37,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 89.16,
+            "premium": 109.11,
+            "initialPayment": 129.06,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 113.92,
+            "premium": 133.87,
+            "initialPayment": 153.82,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 113.92,
+            "premium": 133.87,
+            "initialPayment": 153.82,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=309&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "deductible": "5000",
+        "deductibleFamily": "10000",
+        "rxSchedule": "01",
+        "outOfPocketMax": "5000",
+        "lifetimeMax": "1000000",
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "rxScheduleDescription": "Discount Card Only"
+      },
+      "extraLinksIds": []
+    },
+    "313": {
+      "planId": 313,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 386.76,
+            "premium": 506.46,
+            "initialPayment": 526.41,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 84.41,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 85.95,
+            "premium": 105.9,
+            "initialPayment": 125.85,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 116.03,
+            "premium": 135.98,
+            "initialPayment": 155.93,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 96.26,
+            "premium": 116.21,
+            "initialPayment": 136.16,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 122.99,
+            "premium": 142.94,
+            "initialPayment": 162.89,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 122.99,
+            "premium": 142.94,
+            "initialPayment": 162.89,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=313&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "deductibleFamily": "10000",
+        "lifetimeMax": "500000",
+        "outOfPocketMax": "5000",
+        "deductible": "5000",
+        "rxSchedule": "04",
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    },
+    "317": {
+      "planId": 317,
+      "productId": 17,
+      "featured": false,
+      "productLine": "EPIC",
+      "complianceProductLine": "EPIC_BASE",
+      "brochureId": 1,
+      "carrierId": 5,
+      "jsonId": 2,
+      "planName": "Pivot Health Epic Base",
+      "addOnPlanIds": [],
+      "durations": [
+        {
+          "policyDuration": 180,
+          "durationId": 2,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "prepaid": {
+            "baseRate": 404.67,
+            "premium": 524.37,
+            "initialPayment": 544.32,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 12.06
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 107.64
+              }
+            ],
+            "monthlyDiscountedRate": 87.4,
+            "coverageDuration": 0
+          },
+          "monthly": {
+            "baseRate": 89.93,
+            "premium": 109.88,
+            "initialPayment": 129.83,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=180&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=180&policies=1"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 3,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 1,
+          "extendedDurationsAvailable": [],
+          "monthly": {
+            "baseRate": 121.41,
+            "premium": 141.36,
+            "initialPayment": 161.31,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=364&policies=1",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=364&policies=1"
+          }
+        },
+        {
+          "policyDuration": 180,
+          "durationId": 5,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [180],
+          "monthly": {
+            "baseRate": 100.72,
+            "premium": 120.67,
+            "initialPayment": 140.62,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=180&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=180&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 6,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 2,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 128.69,
+            "premium": 148.64,
+            "initialPayment": 168.59,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=364&policies=2",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=364&policies=2"
+          }
+        },
+        {
+          "policyDuration": 364,
+          "durationId": 7,
+          "policyNumber": 1,
+          "maxConsecutivePolicies": 3,
+          "extendedDurationsAvailable": [364],
+          "monthly": {
+            "baseRate": 128.69,
+            "premium": 148.64,
+            "initialPayment": 168.59,
+            "taxes": [],
+            "fees": [
+              {
+                "name": "Application Fee",
+                "description": "Application Fee",
+                "value": 19.95
+              },
+              {
+                "name": "Association Fee",
+                "description": "Association Fee",
+                "value": 2.0
+              },
+              {
+                "name": "Billing Fee",
+                "description": "Billing Fee",
+                "value": 17.95
+              }
+            ],
+            "coverageDuration": 0
+          },
+          "membersBreakdown": [],
+          "deepLinks": {
+            "quotesPage": "https://qa.pivothealth.com/product/short-term-health-insurance/quotes/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407",
+            "detailsPage": "https://qa.pivothealth.com/product/short-term-health-insurance/details/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=364&policies=3",
+            "startApplicationPage": "https://qa.pivothealth.com/product/short-term-health-insurance/start-application/?agent_id=TEST&quoteKey=b59c5b60-1671-455e-b38f-47a96dc1f407&planid=317&period=364&policies=3"
+          }
+        }
+      ],
+      "coreBenefits": {
+        "userCoinsurance": "0",
+        "network": "Non-PPO",
+        "officeVisitCopayDescription": "Subject to deductible and coinsurance",
+        "networkProvider": "any-provider",
+        "coinsurance": "100",
+        "SpecialistOfficeVisitCopay": "Subject to deductible and coinsurance",
+        "emergencyRoomCopay": "After a copay of $250, Deductible and Coinsurance apply. Copay is waived if directly admitted into Inpatient.",
+        "officeVisitCopay": "Subject to deductible and coinsurance",
+        "patientAdvocacyServices": "true",
+        "planType": "Epic High Deductible RBP",
+        "outOfPocketMax": "5000",
+        "rxSchedule": "04",
+        "deductibleFamily": "10000",
+        "deductible": "5000",
+        "lifetimeMax": "1000000",
+        "rxScheduleDescription": "$5/$35/$70 ($1K Benefit Max for 180 Day Plan; $2K Benefit Max for 364 Day Plan)"
+      },
+      "extraLinksIds": []
+    }
+  },
+  "agentInfo": {
+    "agentId": "TEST",
+    "agencyId": "TEST",
+    "agentFirstName": "TestQA",
+    "agentLastName": "TestQA",
+    "agencyName": "TestQA TestQA"
+  },
+  "featured": {},
+  "quoteFilters": {
+    "plansByProductLine": {
+      "EPIC": [
+        305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318,
+        319, 320
+      ]
+    },
+    "outOfPocketMax": {
+      "10000": [306, 310, 314, 318],
+      "15000": [307, 311, 315, 319],
+      "20000": [320, 308, 312, 316],
+      "5000": [305, 309, 313, 317]
+    },
+    "coInsurance": {
+      "0": [
+        320, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317,
+        318, 319
+      ]
+    },
+    "networkProvider": {
+      "any-provider": [
+        320, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317,
+        318, 319
+      ]
+    },
+    "officeVisitCopay": {
+      "true": [
+        320, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317,
+        318, 319
+      ]
+    },
+    "prescriptionDrug": {
+      "false": [305, 306, 307, 308, 309, 310, 311, 312],
+      "true": [320, 313, 314, 315, 316, 317, 318, 319]
+    },
+    "benefits": { "preventive": [319] },
+    "policyDuration": {
+      "180": [
+        320, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317,
+        318, 319
+      ],
+      "364": [
+        320, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317,
+        318, 319
+      ]
+    },
+    "monthlyCost": [
+      {
+        "policyDuration": 180,
+        "monthlyCost": {
+          "Under100": [
+            [
+              320, 305, 306, 307, 308, 309, 310, 311, 312, 314, 315, 316, 318,
+              319
+            ]
+          ],
+          "Between101_200": [[313, 317]]
+        }
+      },
+      {
+        "policyDuration": 364,
+        "monthlyCost": {
+          "Under100": [[320, 307, 308, 311, 312, 315, 316]],
+          "Between101_200": [[305, 306, 309, 310, 313, 314, 317, 318, 319]]
+        }
+      }
+    ]
+  },
+  "paging": {
+    "pageSize": 16,
+    "totalElements": 16,
+    "totalPages": 1,
+    "indexPage": 0
+  },
+  "plansByProductLine": {
+    "EPIC": [
+      305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319,
+      320
+    ]
+  },
+  "jsons": {
+    "1": "https://cdn.qa.pivothealth.com/resources/v2/products/epic/details/NRIC-base.json",
+    "2": "https://cdn.qa.pivothealth.com/resources/v2/products/epic/details/NRIC-base-with-RX.json"
+  },
+  "brochures": {
+    "1": "https://cdn.qa.pivothealth.com/resources/v2/products/epic/brochure/EPICSTM-BASE.pdf"
+  },
+  "extraLinks": {
+    "1": {
+      "description": "CIGNA PPO: Access to almost 1 million unique national providers and 6,360 hospitals in-network. Members pay a discount of nearly 50% as compared to the national average. Search providers now.††",
+      "url": "https://sarhcpdir.cigna.com/web/public/sarProviders",
+      "category": "DOCTOR_LINK"
+    }
+  },
+  "carriers": {
+    "5": {
+      "name": "North River Insurance Company",
+      "logo": "https://cdn.pivothealth.com/resources/v2/carriers/north-river/images/NRIC-logo.svg",
+      "about": "<h1>disclaimer</h1>"
+    }
+  },
+  "firstAllowedCoverageDate": "08/10/2023",
+  "childOnlyProductLines": [
+    {
+      "productId": 17,
+      "productLine": "EPIC",
+      "membersEligibleForChildOnly": false
+    }
+  ],
+  "quoteKey": "b59c5b60-1671-455e-b38f-47a96dc1f407"
+}

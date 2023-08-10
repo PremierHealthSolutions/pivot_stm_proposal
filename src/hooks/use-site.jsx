@@ -7,6 +7,7 @@ export const SiteContext = createContext();
  */
 
 export function useSiteState() {
+  const [planType, setPlanType] = useState("EPIC_BASE");
   const [duration, setDuration] = useState(1);
   const [maxOOP, setMaxOOP] = useState(5000);
   const [maxCoverage, setMaxCoverage] = useState(500000);
@@ -17,6 +18,8 @@ export function useSiteState() {
     setMaxOOP,
     maxCoverage,
     setMaxCoverage,
+    planType,
+    setPlanType,
   };
 }
 

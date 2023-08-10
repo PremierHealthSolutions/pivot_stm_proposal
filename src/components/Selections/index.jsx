@@ -13,7 +13,7 @@ import { maxCoverages } from "../../data/max-coverages";
 import { maxOopOptions } from "../../data/max-oop";
 import useSite from "../../hooks/use-site";
 const Selections = () => {
-  const { setMaxCoverage, setMaxOOP } = useSite();
+  const { setMaxCoverage, setMaxOOP, setPlanType } = useSite();
   function handleCoverageAmount(e) {
     const value = e.currentTarget.value;
     setMaxCoverage(value);
@@ -21,6 +21,10 @@ const Selections = () => {
   function handleOOPChange(e) {
     const value = e.currentTarget.value;
     setMaxOOP(value);
+  }
+  function handlePlanTypeChange(e) {
+    const value = e.currentTarget.value;
+    setPlanType(value);
   }
   return (
     <Box mt={4}>
@@ -57,6 +61,17 @@ const Selections = () => {
       </Box>
       <Heading my={8}>Make Selections</Heading>
       <SimpleGrid columns={4} gap={4}>
+        <FormControl>
+          <FormLabel>Plan Type</FormLabel>
+          <Select
+            name="planType"
+            onChange={handlePlanTypeChange}
+            placeholder="Make Selection"
+          >
+            <option value={"EPIC_BASE"}>EPIC_BASE</option>
+            <option value={"EPIC_PPO"}>EPIC_PPO</option>
+          </Select>
+        </FormControl>
         <FormControl>
           <FormLabel>Deductible / Max OOP</FormLabel>
           <Select

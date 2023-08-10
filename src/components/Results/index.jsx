@@ -19,47 +19,63 @@ import iowa_plans from "../../data/pivot_iowa.json";
 import kansas_plans from "../../data/pivot_kansas.json";
 import florida_plans from "../../data/pivot_florida.json";
 import missouri_plans from "../../data/pivot_missouri.json";
+import indiana_plans from "../../data/pivot_indiana.json";
+import id_plans from "../../data/pivot_id.json";
+import nc_plans from "../../data/pivot_nc.json";
+import nd_plans from "../../data/pivot_nd.json";
+import va_plans from "../../data/pivot_va.json";
+import sc_plans from "../../data/pivot_sc.json";
 import useSite from "../../hooks/use-site";
 import { formatter } from "../../support/format-usd";
 
 const dataSelection = {
-  Texas: texas_plans,
-  Iowa: iowa_plans,
-  Florida: florida_plans,
-  Kansas: kansas_plans,
-  Missouri: missouri_plans,
+  TX: texas_plans,
+  IA: iowa_plans,
+  FL: florida_plans,
+  KS: kansas_plans,
+  MO: missouri_plans,
+  ID: id_plans,
+  IN: indiana_plans,
+  NC: nc_plans,
+  ND: nd_plans,
+  SC: sc_plans,
+  VA: va_plans,
 };
 
 const Results = () => {
-  const { maxOOP, maxCoverage } = useSite();
+  const { maxOOP, maxCoverage, planType } = useSite();
   const [items, setItems] = useState([]);
   const [dataSource, setDataSource] = useState(texas_plans);
+  const [dataState, setDataState] = useState("Texas");
 
   useEffect(() => {
     let matches = [];
+    const discountText =
+      dataState === "IA"
+        ? "$500 Deductible Then Copay Applies ($5/$35/$75) $1000 Benefit Max"
+        : "Discount Card Only";
     for (const planId in dataSource.plans) {
       const plan = dataSource.plans[planId];
       if (
-        plan.complianceProductLine === "EPIC_BASE" &&
+        plan.complianceProductLine === planType &&
         plan.coreBenefits &&
         plan.coreBenefits.deductible === String(maxOOP) &&
         plan.coreBenefits.outOfPocketMax === String(maxOOP) &&
         plan.coreBenefits.lifetimeMax === maxCoverage &&
-        plan.coreBenefits.rxScheduleDescription.includes("Discount Card Only")
+        plan.coreBenefits.rxScheduleDescription.includes(discountText)
       ) {
         matches.push(plan);
       }
     }
 
-    if (matches.length) {
-      setItems(matches);
-    }
+    setItems(matches);
   }, [maxCoverage, maxOOP, dataSource]);
 
   function handleDataChange(e) {
     const val = e.target.value;
 
     if (val in dataSelection) {
+      setDataState(val);
       setDataSource(dataSelection[val]);
     }
   }
@@ -81,6 +97,12 @@ const Results = () => {
           </FormControl>
           <Heading my={8}>Results</Heading>
           <Box>
+            {items.length === 0 && (
+              <Alert status="warning">
+                <AlertIcon />
+                No results found
+              </Alert>
+            )}
             {items.map((plan, key) => (
               <Box key={key}>
                 <VStack align="stretch" divider={<StackDivider />} gap={4}>
