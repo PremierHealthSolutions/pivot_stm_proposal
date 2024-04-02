@@ -14,7 +14,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import texas_plans from "../../data/pivot_texas.json";
+import texas_plans from "../../data/pivot_texas_updated.json";
 import iowa_plans from "../../data/pivot_iowa.json";
 import kansas_plans from "../../data/pivot_kansas.json";
 import florida_plans from "../../data/pivot_florida.json";
